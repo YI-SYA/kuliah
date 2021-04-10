@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+main()
+{
+cout << "Soal!!"<<endl;
+cout << "1. hitung luas bola"<<endl;
+cout << "2. hitung isi bola"<<endl;
+cout << ""<<endl;
+cout << "jawab :"<<endl;
+float r,luas,isi;
+cout <<"masukkan nilai jari-jari :";
+cin >> r;
+luas=4*3.14*(r*r);
+isi=4/3*3.14*(r*r*r);
+cout << "luas bola adalah :" <<luas<<endl;
+cout << "isi bola adalah :" <<isi<<endl;
+}
